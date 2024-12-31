@@ -1,0 +1,74 @@
+.contactPage {
+    min-height: calc(100vh - 4rem); /* Spasi diperbaiki */
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactPageTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contactDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn {
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 3.5rem;
+    pointer-events: auto;
+}
+
+.socialLinks {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.socialIcon {
+  font-size: 24px;
+  color: yellow;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.socialIcon:hover {
+  color: #0077b5; /* Warna LinkedIn */
+}
+
+.socialIcon:nth-child(2):hover {
+  color: #000; /* Warna GitHub */
+}
