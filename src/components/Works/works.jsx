@@ -48,6 +48,7 @@ const works = () => {
                     <a href="https://github.com/username/project2" target="_blank" className="githubBtn">View on GitHub</a>
                 </div>
             </div>
+        
         </div>
     </section>
   )

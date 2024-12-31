@@ -39,7 +39,7 @@ const Contact = () => {
                 <button type='submit' value='Send' className='submitBtn'>Submit</button>
             </form>
         </div>
-
+        
         <div className="socialLinks">
           <a
             href="https://www.linkedin.com/in/julio68"
