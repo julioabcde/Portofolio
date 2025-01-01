@@ -11,9 +11,12 @@ const intro = () => {
             <span className="hello">Hello,</span>
             <span className="introText">I'm <span className="introName">Julio</span></span>
             <p className="introPara">I currently studying at Binus University majoring in Computer Science </p>
-            <Link><button className="btn">< img src={btnImg} alt="Hire" className="btnImg" />Hire Me</button></Link>
+            <a href="https://drive.google.com/file/d/1TgDJSo0xGtauSssydnE4t5y7Nwf7wcgJ/view?usp=sharing" download>
+                <button className="btn">
+                    <img src={btnImg} alt="Download CV" className="btnImg" />Download CV
+                </button>
+            </a>  
         </div>
-
         <img src={bg} alt="Profile" className="bg"/>
     </section>
   )
